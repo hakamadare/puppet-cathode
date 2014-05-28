@@ -1,13 +1,13 @@
 # Cathode for Boxen
 
-[![Build Status](https://travis-ci.org/hakamadare/puppet-cathode.png?branch=master)](https://travis-ci.org/hakamadare/puppet-cathode)
+[![Build Status](https://travis-ci.org/boxen/puppet-cathode.svg?branch=master)](https://travis-ci.org/boxen/puppet-cathode)
 
 This Boxen module installs [Cathode](http://www.secretgeometry.com/apps/cathode/).
 
 ## Usage
 
 ```puppet
-class { 'cathode': }
+include cathode
 ```
 
 ## Required Puppet Modules
